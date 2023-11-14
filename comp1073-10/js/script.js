@@ -44,7 +44,7 @@ function topFlavors(jsonObj){
 		var p2 = document.createElement('p');
 		var list = document.createElement('ul');
 		// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-		img.setAttribute('src', 'https://smccrindle.github.io/comp1073-10/images/' + topFlavors[i].image);
+		img.setAttribute('src', 'https://raw.githubusercontent.com/Leverc/week10JSpractice/main/comp1073-10/images/' + topFlavors[i].image);
 		img.setAttribute('alt', topFlavors[i].name);
 		h2.textContent = topFlavors[i].name;
 		p1.textContent = 'Calories: ' + topFlavors[i].calories;
