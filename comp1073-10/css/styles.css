@@ -32,10 +32,15 @@ section {
 	margin-bottom: 5rem;
 }
 section article {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
-	padding: 2.5%;
-	width: 25%
+	padding: 1%;
+	width: 30%;
 }
 article img {
 	display: block;
